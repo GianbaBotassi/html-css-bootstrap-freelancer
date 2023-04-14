@@ -1,0 +1,56 @@
+/***************************************
+            GENERAL STYLES
+***************************************/
+:root{
+    --darkgrey:#2c3e50;
+    --lightgrey:#3a546d;
+    --green:#1abc9c;
+    --white:#ffffff;
+    --black:#000000;
+}
+body{
+    color: var(--white);
+}
+
+/***************************************
+            UTILITIES
+***************************************/
+/* Color */
+.txt-black{
+    color: var(--black);
+}
+.txt-white{
+    color: var(--white);
+}
+
+/***************************************
+            SITE SECTION
+***************************************/
+header{
+    background-color: var(--darkgrey);
+    height: 3rem;
+}
+
+
+
+
+
+
+
+/* DEBUG */
+[class*="col"]{
+    background-color: aqua;
+    border: solid 2px black;
+}
+.container-xs{
+    background-color: blueviolet;
+}
+.con_prova{
+    border: burlywood 2px solid;
+}
+
+
+
+
+
+
