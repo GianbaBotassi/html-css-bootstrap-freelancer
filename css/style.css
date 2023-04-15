@@ -10,6 +10,7 @@
 }
 body{
     color: var(--white);
+    font-weight: bold;
 }
 
 /***************************************
@@ -22,15 +23,112 @@ body{
 .txt-white{
     color: var(--white);
 }
+.txt-grey{
+    color: var(--darkgrey);
+}
+/* Margin */
+.marg_top_big{
+    margin-top: 2rem;
+}
+.marg_top{
+    margin-top: 1rem;
+}
+.padd_bottom{
+    padding-bottom: 1rem;
+}
+.padd_top{
+    padding-top:1rem;
+}
+.padd_bottom_big{
+    padding-bottom: 2rem;
+}
+.padd_top_big{
+    padding-top:2rem;
+}
+
 
 /***************************************
             SITE SECTION
 ***************************************/
+
+/* Header */
 header{
     background-color: var(--darkgrey);
-    height: 3rem;
+    min-height: 4rem;
+}
+nav{
+    margin: 0 auto;
 }
 
+/* Jumbotron */
+#jumbotron{
+    background-color: var(--green);
+}
+#jumbotron img{
+    max-width: 100%;
+    height: 250px;
+}
+.line{
+    width: 50px;
+    display: inline-block;
+}
+#jumbotron .line, #about .line{
+    border: 2px solid var(--white);
+}
+.fa-star{
+    font-size: 1.5rem;
+}
+
+/* Portfolio */
+#portfolio .line{
+    border: 2px solid var(--darkgrey);
+
+}
+#portfolio img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* About */
+#about{
+    background-color: var(--green);
+}
+.cont_narrow{
+    width: 300px;
+}
+
+/* Form */
+
+#form input{
+    border: 0;
+    height: 5rem;
+    width: 100%;
+}
+#form button{
+    background-color: var(--green);
+}
+
+
+/* Footer */
+
+/* Contacts */
+
+footer{
+    background-color: var(--lightgrey);
+}
+footer i{
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+}
+#copyright{
+    background-color: var(--darkgrey);
+    height: 7rem;
+}
+
+/***************************************
+            RESPONSIVE
+***************************************/
 
 
 
@@ -38,17 +136,13 @@ header{
 
 
 /* DEBUG */
-[class*="col"]{
+/* [class*="col"]{
     background-color: aqua;
     border: solid 2px black;
-}
-.container-xs{
-    background-color: blueviolet;
-}
-.con_prova{
+} */
+/* .con_prova{
     border: burlywood 2px solid;
-}
-
+} */
 
 
 

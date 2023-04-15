@@ -4,28 +4,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="container-fluid">
-        <div class="row container-fluid justify-content-between align-items-center">
-            <h6 class="col-4 con_prova">START BOOTSTRAP</h6>
-            <div class="col-2 col-offset-6 hamburger con_prova">ciao</div>
+
+<!-- HEADER -->
+
+    <header class="d-flex align-items-center">
+          <nav class="container d-flex justify-content-between">
+            <div>START BOOTSTRAP</div>
+            <div>Hamb</div>
+          </nav>
+          
+    </header> 
+
+<!-- JUMBOTRON -->
+
+    <div id="jumbotron" class="text-center">
+      <div class="container">
+        <img class="marg_top_big" src="img/avatar.svg" alt="Avatar">
+        <h1 class="marg_top">START BOOTSTRAP</h1>
+        <div class="marg_top d-flex align-items-center justify-content-center">
+          <span class="line"></span>
+          <i class="fa-solid fa-star"></i>
+          <span class="line"></span>
         </div>
-    </header>
-    <div class="container text-center">
-        <div class="row align-items-center">
-          <div class="col">
-            One of three columns
+        <div class="padd_top padd_bottom_big">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+      </div>
+    </div>
+
+<!-- PORTFOLIO -->
+
+    <section id="portfolio" class="text-center txt-grey padd_top">
+      <div class="container">
+        <h2>PORTFOLIO</h2>
+        <div class="marg_top d-flex align-items-center justify-content-center padd_bottom_big">
+          <span class="line"></span>
+          <i class="fa-solid fa-star"></i>
+          <span class="line"></span>
+        </div>
+        <div class="row g-4">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/cabin.png" alt="Home">
           </div>
-          <div class="col">
-            One of three columns
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/cake.png" alt="Cake">
           </div>
-          <div class="col">
-            One of three columns
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/circus.png" alt="Circus">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/game.png" alt="Game">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/safe.png" alt="Safe">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/submarine.png" alt="Submarine">
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="padd_top padd_bottom_big">
+      <h5 class="text-center padd_top">ABOUT</h5>
+      <div class="marg_top d-flex align-items-center justify-content-center padd_bottom">
+        <span class="line"></span>
+        <i class="fa-solid fa-star"></i>
+        <span class="line"></span>
+      </div>
+      <div class="container">
+        <div class="row">
+          <p class="offset-2 col-8 offset-md-2 col-md-4">Freelancer is a free bootsrap theme created by Start Bootstrap.
+            The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+          </p>
+          <p class="offset-2 col-8 offset-md-2 col-md-4">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+          </p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center padd_top padd_bottom">
+          <button class="btn btn-outline-light border border-light rounded">
+            <i class="fa-solid fa-download"></i> Download
+          </button>
+        </div>
+    </section>
+
+    <!-- FORM -->
+    <section id="form" class="container cont_narrow txt-grey padd_bottom padd_top">
+      <h5 class="text-center">CONTACT ME</h5>
+      <div class="marg_top d-flex align-items-center justify-content-center">
+        <span class="line"></span>
+        <i class="fa-solid fa-star"></i>
+        <span class="line"></span>
+      </div>
+      <div class="border-bottom padd_top">Name</div>
+      <div class="border-bottom padd_top">Email Address</div>
+      <div class="border-bottom padd_top">Phone Number</div>
+      <div class="padd_top">Message</div>
+      <input type="text" class="border-bottom">
+      <button type="submit" class="btn marg_top">Send</button>
+    </section>
+
+    <!-- Contacts -->
+
+    <footer>
+      <div id="contacts" class="container text-center">
+        <div class="padd_bottom padd_top_big">
+          <div>LOCATION</div>
+          <p>2215 John Daniel Drive Clark, MO 54243</p>
+        </div>
+        <div class="padd_bottom_big padd_top">
+          <div>AROUND THE WEB</div>
+          <i class="fa-brands fa-facebook-f border rounded-circle text-center align-middle"></i>
+          <i class="fa-brands fa-google-plus-g"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <div class="padd_bottom_big">
+          <div>ABOUT FREELANCER</div>
+          <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>
+          </p>
+        </div>
+      </div>
+      <div id="copyright" class="d-flex align-items-center justify-content-center">
+        <div>Copyright &copy; Your Website 2019
+        </div>
+      </div>
+    </footer>
+
+
 </body>
 </html>
