@@ -13,6 +13,7 @@ body{
     font-weight: bold;
 }
 
+
 /***************************************
             UTILITIES
 ***************************************/
@@ -26,7 +27,7 @@ body{
 .txt-grey{
     color: var(--darkgrey);
 }
-/* Margin */
+/* Margin padding */
 .marg_top_big{
     margin-top: 2rem;
 }
@@ -45,6 +46,15 @@ body{
 .padd_top_big{
     padding-top:2rem;
 }
+/* Font size */
+
+h5{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.narrow_cont{
+    width: 70%;
+}
 
 
 /***************************************
@@ -58,6 +68,9 @@ header{
 }
 nav{
     margin: 0 auto;
+}
+nav i{
+    font-size: 2rem;
 }
 
 /* Jumbotron */
@@ -92,9 +105,6 @@ nav{
 /* About */
 #about{
     background-color: var(--green);
-}
-.cont_narrow{
-    width: 300px;
 }
 
 /* Form */
