@@ -12,6 +12,10 @@ body{
     color: var(--white);
     font-weight: bold;
 }
+a{
+    text-decoration: none;
+    color: var(--white);
+}
 
 
 /***************************************
@@ -66,11 +70,14 @@ header{
     background-color: var(--darkgrey);
     min-height: 4rem;
 }
-nav{
+/* nav{
     margin: 0 auto;
 }
 nav i{
     font-size: 2rem;
+} */
+.navbar-toggler{
+    color: var(--white);
 }
 
 /* Jumbotron */
@@ -82,19 +89,21 @@ nav i{
     height: 250px;
 }
 .line{
-    width: 50px;
-    display: inline-block;
+    border-width: 3px;
+    border-style: solid;
 }
 #jumbotron .line, #about .line{
-    border: 2px solid var(--white);
+    border-color:var(--white);
+    background-color: var(--white);
 }
 .fa-star{
     font-size: 1.5rem;
 }
 
 /* Portfolio */
-#portfolio .line{
-    border: 2px solid var(--darkgrey);
+#portfolio .line, #form .line{
+    border-color: var(--darkgrey);
+    background-color: var(--darkgrey);
 
 }
 #portfolio img{
@@ -111,12 +120,13 @@ nav i{
 
 #form input{
     border: 0;
-    height: 5rem;
+    height: 1.5rem;
     width: 100%;
 }
 #form button{
     background-color: var(--green);
 }
+
 
 
 /* Footer */
@@ -126,20 +136,21 @@ nav i{
 footer{
     background-color: var(--lightgrey);
 }
-footer i{
+footer .titles{
+    font-size: 1.3rem;
+}
+footer .channels i{
+    vertical-align: middle;
+    display: table-cell;
     height: 2rem;
     width: 2rem;
-    line-height: 2rem;
-}
+    text-align: center;
+  }
+
 #copyright{
     background-color: var(--darkgrey);
     height: 7rem;
 }
-
-/***************************************
-            RESPONSIVE
-***************************************/
-
 
 
 
@@ -150,10 +161,6 @@ footer i{
     background-color: aqua;
     border: solid 2px black;
 } */
-/* .con_prova{
-    border: burlywood 2px solid;
-} */
-
 
 
 
