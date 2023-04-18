@@ -13,17 +13,22 @@
 <!-- HEADER -->
 
     <header class="d-flex align-items-center">
-          <nav class="container d-flex justify-content-between align-items-center">
-            <div>START BOOTSTRAP</div>
-            <i class="fa-solid fa-bars d-sm-none border border-light p-2 rounded"></i>
-            <div class="d-none d-sm-flex">
-              <div class="p-2">Portfolio</div>
-              <div class="p-2">About</div>
-              <div class="p-2">Contact</div>
-            </div>
-          </nav>
-          
-    </header> 
+      <nav class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-6">START BOOTSTRAP</div>
+          <div class="col-2 d-sm-none justify-content-center">
+            <i class="fa-solid fa-bars border border-light p-2 rounded"></i>
+          </div>
+          <ul class="d-none d-sm-flex col-6 col-md-5 row justify-content-end text-center">
+            <li class="col">Portfolio</li>
+            <li class="col">About</li>
+            <li class="col">Contact</li>
+          </ul>
+        </div>
+        
+      </nav>
+      
+</header> 
 
 <!-- JUMBOTRON -->
 
@@ -80,63 +85,57 @@
     <!-- ABOUT -->
 
     <section id="about" class="padd_top padd_bottom_big">
-      <h5 class="text-center padd_top">ABOUT</h5>
-      <div class="row">
-        <div class="col-6 mx-auto row align-items-center">
-          <span class="line col"></span>
-          <i class="fa-solid fa-star col text-center"></i>
-          <span class="line col"></span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-8 mx-auto">
-          <div class="row">
-            <p class="col-12 col-sm-6">Freelancer is a free bootsrap theme created by Start Bootstrap.
-              The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-            </p>
-            <p class="col-12 col-sm-6">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
-            </p>
+      <div class="container">
+        <h5 class="text-center padd_top">ABOUT</h5>
+        <div class="row">
+          <div class="col-6 mx-auto row align-items-center">
+            <span class="line col"></span>
+            <i class="fa-solid fa-star col text-center"></i>
+            <span class="line col"></span>
           </div>
         </div>
-        <div class="d-flex justify-content-center padd_top padd_bottom">
-            <button class="btn btn-outline-light border border-light rounded">
-              <i class="fa-solid fa-download"></i> Download
-            </button>
+        <div class="row">
+          <div class="col-8 mx-auto">
+            <div class="row">
+              <p class="col-12 col-sm-6">Freelancer is a free bootsrap theme created by Start Bootstrap.
+                The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+              </p>
+              <p class="col-12 col-sm-6">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+              </p>
+            </div>
           </div>
+          <div class="d-flex justify-content-center padd_top padd_bottom">
+              <button class="btn btn-outline-light border border-light rounded">
+                <i class="fa-solid fa-download"></i> Download
+              </button>
+            </div>
+        </div>
       </div>
       
     </section>
 
     <!-- FORM -->
-    <section id="form" class="txt-grey padd_bottom padd_top mx-auto">
+
+    <section id="form" class="container txt-grey padd_bottom padd_top mx-auto">
           <h5 class="text-center">CONTACT ME</h5>
         <div class="col-6 mx-auto row align-items-center">
           <span class="line col"></span>
           <i class="fa-solid fa-star col text-center"></i>
           <span class="line col"></span>
         </div>
-      <div class="row">
+      <div class="row padd_top">
         <div class="col-8 mx-auto">
           <form>
             <div class="form-group">
-                <label for="exampleInputName">Name</label>
-                <input type="name" class="form-control border-bottom rounded-0" id="exampleInputName">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control border-bottom rounded-0" id="exampleInputEmail1">
-
-                <label for="exampleInputPhoneNumber">Phone Number</label>
-                <input type="text" class="form-control border-bottom rounded-0" id="exampleInputPhoneNumber">
-                <label for="exampleFormControlTextarea1" class="padd_top">Message</label>
-                <textarea class="form-control border-bottom rounded-0 border-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <input type="name" class="form-control border-bottom rounded-0" id="exampleInputName" placeholder="Name">
+                <input type="email" class="form-control border-bottom rounded-0" id="exampleInputEmail1" placeholder="Email Adress">
+                <input type="text" class="form-control border-bottom rounded-0" id="exampleInputPhoneNumber" placeholder="Phone number">
+                <textarea class="form-control border-bottom rounded-0 border-0" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
               <button type="submit" class="btn btn-primary marg_top">Submit</button>
             </div>
           </form>
         </div>
       </div> 
-
-      
-
-
     </section>
 
     <!-- Contacts -->
@@ -164,7 +163,7 @@
         </div>
         <div class="col-12 col-sm-4">
           <div class="titles">ABOUT FREELANCER</div>
-          <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>
+          <p>Freelance is a free to use, open source Bootstrap theme created by <span class="txt-green">Start Bootstrap</span>
           </p>
         </div>
       </div>
